@@ -15,3 +15,11 @@ Este projeto é uma Landing Page profissional desenvolvida como desafio prático
 
 ## 4. Instruções de Execução
 Para testar a aplicação, basta manter os arquivos `index.html`, `style.css` e `script.js` no mesmo diretório e abrir o arquivo HTML em qualquer navegador moderno. A validação do formulário pode ser testada digitando dados nos campos de contato; o botão de envio só será processado se os padrões de RegEx forem satisfeitos.
+O projeto também foi upado e publicado no Github. A página pode ser acessada pelo https://cel99952063.github.io/.
+
+
+  ===========================================================================================================
+|| PS.: Gostaria de agradecer toda equipe envolvida no SCTEC pelo carinho e atenção dedicados nosse projeto. || 
+|| Grato, Gerson.                                                                                            ||
+  ===========================================================================================================
+  
