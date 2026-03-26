@@ -19,7 +19,6 @@ O projeto também foi upado e publicado no Github. A página pode ser acessada p
 
 
   ===========================================================================================================
-|| PS.: Gostaria de agradecer toda equipe envolvida no SCTEC pelo carinho e atenção dedicados nosse projeto. || 
+|| PS.: Gostaria de agradecer toda equipe envolvida no SCTEC pelo carinho e atenção dedicados nesse projeto. || 
 || Grato, Gerson.                                                                                            ||
   ===========================================================================================================
-  
