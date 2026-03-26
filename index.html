@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio Profissional de Gerson Machado - Gestão e Desenvolvimento Full-Stack">
+    <title>Portfólio Profissional | Gerson Machado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">GM<span>.dev</span></div>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <h1>Gerson Machado</h1>
+                <p class="subtitle">Gestor de Negócios & Desenvolvedor Full-Stack em Formação</p>
+                <p>Transformando 12 anos de experiência empresarial e automação industrial em soluções tecnológicas de alto impacto.</p>
+                <a href="#projetos" class="btn-primary">Ver Portfólio</a>
+            </div>
+        </section>
+
+        <section id="sobre" class="container">
+            <h2>Trajetória Profissional</h2>
+            <div class="sobre-conteudo">
+                <p>Residente em Florianópolis, Santa Catarina, atuei por mais de uma década como empresário nos setores de informática e automação industrial. Atualmente, foco no desenvolvimento técnico para elevar minha expertise na criação de sistemas robustos unindo Front-end moderno e automações complexas em Back-end.</p>
+            </div>
+        </section>
+
+        <section id="projetos" class="container">
+            <h2>Projetos em Destaque</h2>
+            <div class="grid-projetos">
+                
+                <article class="card">
+                    <div class="badge">Back-end / Finance</div>
+                    <h3>Integração RTD B3</h3>
+                    <p>Captura e processamento de dados em tempo real via RTD do <strong>ProfitChart Pro (Nelógica)</strong> utilizando <strong>Python</strong> para análise de ativos financeiros.</p>
+                    <button class="btn-card" onclick="mostrarDetalhes('rtd')">Detalhes Técnicos</button>
+                </article>
+
+                <article class="card">
+                    <div class="badge">Automação</div>
+                    <h3>Clipping Digital High-Speed</h3>
+                    <p>Sistema de monitoramento de mídia automatizado com <strong>Python + Playwright</strong>, focado em captura de evidências e valoração de clipping.</p>
+                    <button class="btn-card" onclick="mostrarDetalhes('clipping')">Detalhes Técnicos</button>
+                </article>
+
+                <article class="card">
+                    <div class="badge">Front-end</div>
+                    <h3>Landing Page Interativa</h3>
+                    <p>Desenvolvimento de interface responsiva com <strong>HTML5, CSS3 e JavaScript</strong>, aplicando conceitos de UX e manipulando o DOM.</p>
+                    <button class="btn-card" onclick="mostrarDetalhes('web')">Ver Stack</button>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="contato" class="container">
+            <div class="contato-wrapper">
+                <h2>Vamos Conversar?</h2>
+                <form id="formContato">
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="4" placeholder="Como posso ajudar seu projeto?"></textarea>
+                    </div>
+                    <button type="submit" id="btnEnviar">Enviar Mensagem</button>
+                </form>
+                <div id="feedbackForm" class="hidden"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Gerson Machado. Desenvolvido para o Desafio Extra - STEC.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
